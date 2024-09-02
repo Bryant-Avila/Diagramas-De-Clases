@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
+  <diagram name="Página-1" id="yLIxsh1GC3R2NKEqh32L">
+    <mxGraphModel dx="1720" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="O4GLKHiiTW8GFt9Bikdo-8" target="O4GLKHiiTW8GFt9Bikdo-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-8" value="Recerva" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="190" width="320" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="O4GLKHiiTW8GFt9Bikdo-8" vertex="1">
+          <mxGeometry y="200" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-11" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;- Fecha:(Date)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;- Hora:(Time)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;- Mesa:(Mesa)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;- Cliente: Cliente&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="O4GLKHiiTW8GFt9Bikdo-8" vertex="1">
+          <mxGeometry x="82.5" y="70" width="155" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-12" value="- ConfirmacionRecerva(): Void&lt;div&gt;CancelarRecerva(): Void&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="O4GLKHiiTW8GFt9Bikdo-8" vertex="1">
+          <mxGeometry x="10" y="210" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="O4GLKHiiTW8GFt9Bikdo-13" target="O4GLKHiiTW8GFt9Bikdo-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-13" value="Mesa" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="190" width="320" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="O4GLKHiiTW8GFt9Bikdo-13" vertex="1">
+          <mxGeometry y="200" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-15" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;- Numero (Int)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;-Capacidad: (Int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;-Estado: (String) (Disponible,Ocupado,Recervado)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="O4GLKHiiTW8GFt9Bikdo-13" vertex="1">
+          <mxGeometry x="82.5" y="70" width="155" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-16" value="-RecervaMesa(Cliente:Cliente , Fecha:Date , Hora:Time)&lt;div&gt;LiberarMesa(): Void&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="O4GLKHiiTW8GFt9Bikdo-13" vertex="1">
+          <mxGeometry x="5" y="210" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-17" value="Orden" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="190" width="320" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="O4GLKHiiTW8GFt9Bikdo-17" vertex="1">
+          <mxGeometry y="200" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-19" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Numero Orden:(Int)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;- Mesa:(Mesa)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;- Platos: (listPlato)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="O4GLKHiiTW8GFt9Bikdo-17" vertex="1">
+          <mxGeometry x="82.5" y="70" width="155" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-20" value="AgregarPlato(Plato: Void)&lt;div&gt;EliminarPlato:(Plato: Void)&lt;/div&gt;&lt;div&gt;CalcularTotal():Float&lt;/div&gt;&lt;div&gt;CerrarOrden(): Void&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="O4GLKHiiTW8GFt9Bikdo-17" vertex="1">
+          <mxGeometry x="10" y="210" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="O4GLKHiiTW8GFt9Bikdo-21" target="O4GLKHiiTW8GFt9Bikdo-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-21" value="Clientes" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="190" width="320" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="O4GLKHiiTW8GFt9Bikdo-21" vertex="1">
+          <mxGeometry y="200" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-23" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;- Nombre: (String)&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;- Telefono: (String)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;- Email: (String)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="O4GLKHiiTW8GFt9Bikdo-21" vertex="1">
+          <mxGeometry x="82.5" y="70" width="155" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-24" value="- Realizar Recervas(Fecha:Date,Hora:Time,Mesa:Mesa&lt;div&gt;- CancelarRecerva(Recerva):Void&lt;/div&gt;&lt;div&gt;- Solicitar Orden(Mesa: Mesa, Platos:List(Platos)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="O4GLKHiiTW8GFt9Bikdo-21" vertex="1">
+          <mxGeometry x="10" y="210" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O4GLKHiiTW8GFt9Bikdo-28" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Diagrama de Clases RESTAURANTE&lt;/b&gt;&lt;/font&gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="950" y="60" width="180" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
